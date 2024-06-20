@@ -1,12 +1,44 @@
+/** @type {import('tailwindcss').Config} */
 import type { Config } from "tailwindcss";
+const withMT = require("@material-tailwind/react/utils/withMT");
 
-const config: Config = {
+const config: Config = withMT({
+  darkMode: ["class"],
   content: [
-    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./pages/**/*.{js,jsx,ts,tsx}",
+    "./components/**/*.{js,jsx,ts,tsx}",
+    "./app/**/*.{js,jsx,ts,tsx}",
+    "./src/**/*.{js,jsx,ts,tsx}",
+    "./node_modules/@material-tailwind/react/components/**/*.{js,ts,jsx,tsx}",
+    "./node_modules/@material-tailwind/react/theme/components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      xxxs: "275px",
+      xxs: "375px",
+      xs: "414px",
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
+      xxl: "1445px",
+      xxxl: "1536px",
+    },
+    colors: {
+      primary: {
+        50: "#eff4ff",
+        100: "#dae4ff",
+        200: "#bed1ff",
+        300: "#91b4ff",
+        400: "#5989fd",
+        500: "#3763fa",
+        600: "#2142ef",
+        700: "#192edc",
+        800: "#1b27b2",
+        900: "#1c288c",
+        950: "#161a55",
+      },
+    },
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -16,5 +48,5 @@ const config: Config = {
     },
   },
   plugins: [],
-};
+});
 export default config;
