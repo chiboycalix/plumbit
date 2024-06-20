@@ -25,6 +25,7 @@ const config: Config = withMT({
       xxxl: "1536px",
     },
     colors: {
+      secondary: "#828282",
       primary: {
         50: "#eff4ff",
         100: "#dae4ff",
@@ -38,6 +39,19 @@ const config: Config = withMT({
         900: "#1c288c",
         950: "#161a55",
       },
+      // primary: {
+      //   50: "#eefbf3",
+      //   100: "#d5f6e0",
+      //   200: "#afebc6",
+      //   300: "#7bdaa6",
+      //   400: "#44c382",
+      //   500: "#23af6c",
+      //   600: "#148752",
+      //   700: "#106c44",
+      //   800: "#0f5638",
+      //   900: "#0d472e",
+      //   950: "#06281b",
+      // },
     },
     extend: {
       backgroundImage: {

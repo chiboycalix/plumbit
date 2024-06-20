@@ -28,7 +28,7 @@ const StickyNavbar = () => {
     <ul className="mt-2 mb-4 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
       {
         navLinks.map((navLink) => {
-          return (<li key={navLink.id} className={`p-1 font-normal hover:text-primary-500 ${currentPath === navLink.path ? 'text-primary-400' : 'text-black'} text-sm`}>
+          return (<li key={navLink.id} className={`relative p-1 font-normal hover:text-primary-500 ${currentPath === navLink.path ? 'text-primary-400' : 'text-black'} text-sm`}>
             <Link href={navLink.path} className="flex items-center">
               {navLink.name}
             </Link>
@@ -36,8 +36,8 @@ const StickyNavbar = () => {
               currentPath === navLink.path && <motion.div 
                 initial={{ y: 5, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
-                transition={{ ease: "easeInOut", duration: 0.75 }} 
-                className="w-4 bg-primary-400 h-[2px] mx-auto hidden lg:block"></motion.div>
+                transition={{ ease: "easeInOut", duration: 0.5 }} 
+                className="absolute w-4 bg-primary-400 h-[3px] mx-auto hidden lg:block top-[30px] left-[35%]"></motion.div>
             }
           </li>)
         })
