@@ -7,6 +7,9 @@ import PearlFisher from "@/assets/images/partners/Pearlfisher.png";
 import PlanDay from "@/assets/images/partners/Planday.png";
 import Umbraco from "@/assets/images/partners/Umbraco.png";
 import PlumberTwo from "@/assets/images/PlumberTwo.png";
+import Plumbing from "@/assets/images/Plumbing.png";
+import FixtureInstallation from "@/assets/images/FixtureInstallation.png";
+import DrainCleaning from "@/assets/images/DrainCleaning.png";
 
 export {
   LogoBlue,
@@ -17,5 +20,8 @@ export {
   PearlFisher,
   PlanDay,
   Umbraco,
-  PlumberTwo
+  PlumberTwo,
+  Plumbing,
+  FixtureInstallation,
+  DrainCleaning
 };

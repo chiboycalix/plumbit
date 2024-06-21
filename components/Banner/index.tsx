@@ -3,7 +3,7 @@ import Button from "@/components/Button"
 import Link from 'next/link'
 import { ArrowRightIcon } from '@heroicons/react/16/solid';
 import Image from 'next/image';
-import { BannerPlumberBlue, BannerPlumberGreen } from '@/constants';
+import { BannerPlumberGreen } from '@/constants';
 
 const Banner = () => {
   return (

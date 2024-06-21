@@ -1,4 +1,5 @@
 import React from 'react'
+import SectionTitle from '@/components/SectionTitle'
 
 type AchievementStatisticsProps = {
   metric: string;
@@ -12,9 +13,9 @@ const AchievementStatistics = ({ metric, value }: AchievementStatisticsProps) =>
 }
 const OurAchievements = () => {
   return (
-    <div className='py-[1rem] md:py-[5rem] xl:px-[10rem] lg:px-[5rem] px-[1rem]  bg-primary-400'>
+    <div className='py-[1rem] md:py-[5rem] xl:px-[10rem] lg:px-[5rem] px-[1rem] bg-primary-400'>
       <div className='flex md:justify-between md:items-center items-start flex-col lg:flex-row justify-start'>
-        <p className='text-white basis-[50%] md:text-[40px] text-[20px] font-medium'>Our Achievements in Numbers</p>
+        <SectionTitle title='Our Achievements in Numbers'/>
         <div className='flex-1'>
           <p className='text-white lg:w-[70%] w-[100%]'>Turning satisfied clients into smiling faces is our ultimate metric for success.</p>
         </div>
