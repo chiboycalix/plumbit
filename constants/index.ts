@@ -6,6 +6,7 @@ import BrightPearl from "@/assets/images/partners/Brighpearl.png";
 import PearlFisher from "@/assets/images/partners/Pearlfisher.png";
 import PlanDay from "@/assets/images/partners/Planday.png";
 import Umbraco from "@/assets/images/partners/Umbraco.png";
+import PlumberTwo from "@/assets/images/PlumberTwo.png";
 
 export {
   LogoBlue,
@@ -16,4 +17,5 @@ export {
   PearlFisher,
   PlanDay,
   Umbraco,
+  PlumberTwo
 };
