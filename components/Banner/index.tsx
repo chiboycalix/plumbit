@@ -3,7 +3,7 @@ import Button from "@/components/Button"
 import Link from 'next/link'
 import { ArrowRightIcon } from '@heroicons/react/16/solid';
 import Image from 'next/image';
-import { BannerPlumber } from '@/constants';
+import { BannerPlumberBlue, BannerPlumberGreen } from '@/constants';
 
 const Banner = () => {
   return (
@@ -25,7 +25,7 @@ const Banner = () => {
         </div>
       </div>
       <div className='lg:mt-[0rem] mt-[2rem] lg:pl-[0rem] pl-[1rem]'>
-        <Image src={BannerPlumber} alt="BannerPlumber" className='w-full' />
+        <Image src={BannerPlumberGreen} alt="BannerPlumber" className='w-full' />
       </div>
     </div>
   )
