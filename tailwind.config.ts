@@ -52,25 +52,21 @@ const config: Config = withMT({
         900: "#0d472e",
         950: "#06281b",
       },
-      // primary: {
-      //   50: "#fefbe8",
-      //   100: "#fef5c3",
-      //   200: "#ffea89",
-      //   300: "#fed02c",
-      //   400: "#fbbf14",
-      //   500: "#eba607",
-      //   600: "#cb7e03",
-      //   700: "#a25906",
-      //   800: "#86460d",
-      //   900: "#723911",
-      //   950: "#421c06",
-      // },
     },
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      },
+      animation: {
+        "infinite-scroll": "infinite-scroll 10s linear infinite",
+      },
+      keyframes: {
+        "infinite-scroll": {
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(-100%)" },
+        },
       },
     },
   },
