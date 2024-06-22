@@ -1,10 +1,10 @@
 import React from 'react';
 import Button from '@/components/Button'
 import SectionTitle from '@/components/SectionTitle'
-import { ArrowRightIcon } from '@heroicons/react/16/solid';
 import Image from 'next/image';
 import Link from 'next/link';
-import {   Plumbing, FixtureInstallation, DrainCleaning } from '@/constants';
+import { ArrowRightIcon } from '@heroicons/react/16/solid';
+import { Plumbing, FixtureInstallation, DrainCleaning } from '@/constants';
 
 type ServiceProps = {
   title: string;

@@ -10,6 +10,9 @@ import PlumberTwo from "@/assets/images/PlumberTwo.png";
 import Plumbing from "@/assets/images/Plumbing.png";
 import FixtureInstallation from "@/assets/images/FixtureInstallation.png";
 import DrainCleaning from "@/assets/images/DrainCleaning.png";
+import TimelyService from "@/assets/images/whyUsIcons/TimelyService.png";
+import SatisfactionGuaranteed from "@/assets/images/whyUsIcons/SatisfactionGuaranteed.png";
+import UnparalledExpertise from "@/assets/images/whyUsIcons/UnparalledExpertise.png";
 
 export {
   LogoBlue,
@@ -23,5 +26,8 @@ export {
   PlumberTwo,
   Plumbing,
   FixtureInstallation,
-  DrainCleaning
+  DrainCleaning,
+  TimelyService,
+  SatisfactionGuaranteed,
+  UnparalledExpertise
 };

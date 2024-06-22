@@ -5,6 +5,7 @@ import NeedOurSolution from "@/app/sections/NeedOurSolution";
 import OurAchievements from "@/app/sections/OurAchievements";
 import ClientTestimonials from "@/app/sections/ClientTestimonials";
 import OurServices from "@/app/sections/OurServices";
+import WhyChooseUs from "@/app/sections/WhyChooseUs";
 const Home = () => {
   return (
     <Container>
@@ -14,6 +15,7 @@ const Home = () => {
       <OurAchievements />
       <OurServices />
       <ClientTestimonials />
+      <WhyChooseUs />
     </Container>
   );
 }
